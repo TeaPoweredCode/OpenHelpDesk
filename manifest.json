@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "School1 - Open Help Desk",
+  "description": "OpenHelpDesk demo by MrLuxan",
+  "version": "1.4",
+  "icons": { "16": "images/Crest.png",
+             "48": "images/Crest.png",
+             "128":"images/Crest.png" },
+
+  "browser_action": {
+    "default_icon": "images/UnknownIcon.png",
+    "default_popup": "popup.html"
+  },
+ "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "http://r-w.co/OpenHelpDesk/*"
+  ]
+}

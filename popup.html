@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+  <style type="text/css">
+    h3 { margin: 0; }
+    #container{ width: 410px; padding: }
+    #left{ 
+      font-size: 12px;
+      float:left;
+      width: 240px;
+      margin-bottom: 10px;
+      height: 100%;
+    }
+    #right{
+      color:#999;
+      font-size: 12px;
+      float: right;
+      margin-bottom: 10px;
+      border-left: solid 1px #CCC;
+      padding-left: 5px;
+      width: 160px;
+      height: 100%;
+    }
+    #DeskSate{ font-weight: bolder; }
+  </style>
+
+  </head>
+  <body>
+  
+  <div id="container">
+
+    <span id="DeskSate"> Help desk is : <span id="State"> Open </span></span><br>
+    <div id="left">
+      <div id="info"></div>
+    </div>
+    
+    <div id="right">
+      <b>Open Hours</b>
+      <div id="openTimes"></div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+  </body>
+</html>
